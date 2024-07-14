@@ -1,0 +1,76 @@
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: rgba(128, 128, 128, 0.928);
+    color: darkblue;
+    
+ }
+.header{
+    font-family: 'Forte','Gill Sans MT',Calibri,'Trebuchet MS','forte';
+    font-size: xx-large;
+    color:rgba(0, 0, 0, 0.313)
+ }
+nav ul{
+    list-style-type: none;
+    text-align:left ;
+    font-family: cursive;
+    font-size: larger;
+    color: black;
+    font-style: normal;
+    animation: moveLinks 3s ease-in-out infinite alternate;
+
+
+}
+nav ul li a:hover{
+    margin-inline: 1rem;
+    color: antiquewhite;
+    display: block;
+    font-family: cursive;
+    animation: moveLinks 3s ease-in-out infinite alternate;
+    
+}
+h2{
+    color: aqua;
+    font-family: 'Forte','Gill Sans MT',Calibri,'Trebuchet MS','forte';
+    font-size: larger;
+    text-align: center;
+
+}
+.content{
+    font-size: medium;
+    font-family: fantasy;
+    color: black;
+}
+footer{
+    bottom: 0%;
+    text-align: left;
+    color: blanchedalmond;
+    font-size: x-small;
+    position: fixed;
+}
+.describe{
+    text-align: center;
+    font-family: cursive;
+    color: azure;
+
+}
+.images a {
+    display: inline-block;
+    margin:0 1rem
+}
+.images a:hover{
+    transform: scale(1.1);
+}
+.person{
+    animation: movePerson 5s ease-in;
+    text-align: center;
+    color: antiquewhite;
+}
+.order{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+.contact{
+    text-align: center;
+}
